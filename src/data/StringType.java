@@ -9,15 +9,15 @@ public class StringType {
 		String str2 = new String("123");
 		System.out.println(str.equals(str2));
 		
-		//str.equals(str2) : str°ú str2°¡ º¸´Â '°ª'ÀÌ °°ÀºÁö
+		//str.equals(str2) : strê³¼ str2ê°€ ë³´ëŠ” 'ê°’'ì´ ê°™ì€ì§€
 		
-		//¼ýÀÚ¶ó°í ÇØµµ ¹®ÀÚ°¡ ´õÇØÁö¸é ¹«Á¶°Ç ¹®ÀÚ°¡ µÊ.
+		//ìˆ«ìžë¼ê³  í•´ë„ ë¬¸ìžê°€ ë”í•´ì§€ë©´ ë¬´ì¡°ê±´ ë¬¸ìžê°€ ë¨.
 		
 		/*
-		 * GIT - ¸ÞÀÏ°°Àº ¼­ºñ½º
-		 * github - ¸ÞÀÏ¼­ºñ½º¸¦ Á¦°øÇØÁÖ´Â È¸»ç°°Àº°Å
-		 * '>' : ÆÄÀÏ¸í ¾Õ¿¡ ²ª¼è°¡ ÀÖÀ¸¸é
-		 *       Ä¿¹Ô ¾Ø Çª½¬ÇØ¼­ ÀúÀåÇß´ø ¼Ò½º°¡ ±× ÀÌÈÄ¿¡ ¼öÁ¤µÈ ºÎºÐÀÌ ÀÖ´Ù´Â ¶æ 
+		 * GIT - ë©”ì¼ê°™ì€ ì„œë¹„ìŠ¤
+		 * github - ë©”ì¼ì„œë¹„ìŠ¤ë¥¼ ì œê³µí•´ì£¼ëŠ” íšŒì‚¬ê°™ì€ê±°
+		 * '>' : íŒŒì¼ëª… ì•žì— êº¾ì‡ ê°€ ìžˆìœ¼ë©´
+		 *       ì»¤ë°‹ ì•¤ í‘¸ì‰¬í•´ì„œ ì €ìž¥í–ˆë˜ ì†ŒìŠ¤ê°€ ê·¸ ì´í›„ì— ìˆ˜ì •ëœ ë¶€ë¶„ì´ ìžˆë‹¤ëŠ” ëœ» 
 		 */
 	}
 }
