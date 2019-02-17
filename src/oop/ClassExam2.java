@@ -1,7 +1,7 @@
 package oop;
 
 public class ClassExam2 {
-	String[] strs;
+	String[] strs;  //@@
 	int num;
 	double db;
 	boolean bl;

@@ -1,5 +1,7 @@
 package method;
 
+import java.util.Scanner;
+
 public class ReturnMethod {
 
 	static int indexOf(int[] nums, int target) {
@@ -16,7 +18,11 @@ public class ReturnMethod {
 		nums[0] = 7;
 		nums[1] = 4;
 		nums[2] = 1;
-		System.out.println("5의 위치는 : " + indexOf(nums, 5));
+		Scanner i = new Scanner(System.in);
+		int j = i.nextInt();
+		
+		int idx = indexOf(nums, j);
+		System.out.println(j + "의 위치는 : " + idx);
 		
 		//System.out.println("5의 위치는 : " + idx); 에 idx가 대입되니까
 		// indexOf(nums, 5)도 대입할수있음.
