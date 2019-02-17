@@ -11,7 +11,7 @@ class People{  // 클래스 앞에 final 붙으면 절대 재정의 할 수 없�
 		this.name = name;
 	}
 	void printInfo() {   
-		// 원래 11라인과 24라인은 오버라이딩 할 수 있었음.
+		// 원래 10라인과 25라인은 오버라이딩 할 수 있었음.
 		// 그런데 void 앞에 final이 붙으면 오버 라이딩 불가.
 		// 메소드에 final 붙으면 절대 재정의 할 수 없음.
 		System.out.println("이름 : " + name);

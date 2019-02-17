@@ -12,7 +12,7 @@ public class Condition {
 		} else {
 			System.out.println("num1과 num2는 다릅니다.");
 		}
-		//! = (!=) : not equal
+		//!= : not equal
 		//! : 부정연산자.     !true => false     !false => true
 		//같다고 물어볼때는 ==
 		//다르다고 물어볼때는 !=

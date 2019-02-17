@@ -1,7 +1,7 @@
 package method;
 
 public class Methods {
-
+	
 	static String getStr() {
 		return"abc";
 	}
@@ -9,11 +9,12 @@ public class Methods {
 		System.out.println(str);
 	}
 	public static void main(String[] args) {
-		setStr("abc");  //setStr 타입 void. void라는 데이터타입은 없어서 void로는 변수를 선언할수없음.
+		setStr("abcd");  //setStr 타입 void. void라는 데이터타입은 없어서 void로는 변수를 선언할수없음.
 		String str = getStr();
 		System.out.println(str);
 	}
 }
+
 //오버로딩의 전제조건은
 //1. 같은 영역에서 쓸 수 있어야 하고
 //2. 메소드명이 같아야하고

@@ -15,7 +15,7 @@ class Father extends GrandFather {  // extends 확장자
 		System.out.println("아빠가 일함.");
 	}
 }
-public class Son extends Father {
+public class Son extends Father {   // 왜 얘만 public이 붙는거지여???
 	void work() {
 		super.work();
 		System.out.println("아들이 공부함.");
@@ -25,11 +25,15 @@ public class Son extends Father {
 			// 오버라이딩 조건
 			// 	1. 무조건 상속이 시작 2. 메소드의 이름과 메소드의 데이터 타입이 같아야 함
 			// 	3. 파라메터 데이터 타입 갯수 순서까지 동일해야 함
+	// 오버라이딩(Overriding) : 상위 클래스가 가지고 있는 메소드를 하위 클래스가 재정의 해서
+	// 사용한다.
+	// 하위 클래스 입장에서 부모 클래스란 말하자면
+	// 기본적인 동작 방법을 정의한 것이라고 생각할 수 있다
 			
 			// cf) 여기서 파라메터가 달라지면 work메소드 종류가 2개가 되니까 오버로딩
 			// 오버로딩 : 1. 같은 영역에 있어야함 2. 메소드명이 같아야함 (데이터타입은 상관없음)
-			//				3. 파라메터의 갯수, 데이터타입, 위치 등이 달라야함
-	public static void main(String[] args) { // public 접근제어자
+			//				3. 파라메터의 갯수, 데이터타입, 위치 등이 하나라도 달라야함
+	public static void main(String[] args) { // public 접근제어자 ????????
 		Son s = new Son();
 		s.work();
 	}

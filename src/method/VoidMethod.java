@@ -16,5 +16,5 @@ public class VoidMethod {
 }
 
 //메서드의 타입은 두가지. 넘기는거(return;), 안넘기는거(void)
-//여기서 test의 타입은 void
-//따라서 String str = test(10,30); 에러난다. 대입할수없음.????????
+//여기서 test의 타입은 void.
+//따라서 String str = test(10,30); 에러난다. void는 데이터타입이 아니기때문에 대입할수없음.

@@ -14,13 +14,14 @@ public class ClassExam {
 		
 		for (int i = 0; i < 3; i++) {
 			ce.nums[i] = (i + 1) * 10; // 입력단과 출력단 분리시키는 게 좋다.
+			// 따라서 ClassExam이 입력단, main쪽이 실행&출력단.
 		}
 		for (int j = 0; j < 3; j++) {
 			System.out.println(ce.nums[j]); // 입력단과 출력단 분리시키는 게 좋다.
 		}
 
-		ce = null; // ce의 메모리 없앰. ce는 방, 안의 변수들은 가구라고 생각하면 됨.
-		// ce가 없어졌으니 안에 있던 내용들도 다 못 찾게 된 것.
+		//ce = null; // ce의 메모리 없앰. ce는 방, 안의 변수들은 가구라고 생각하면 됨.
+		// ce가 없어졌으니 안에 있던 내용들도 다 못 찾게 된 것. NullPointerException 오류가 남.
 		System.out.println(ce.str);
 
 	}

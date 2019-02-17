@@ -23,8 +23,8 @@ public class ClassExam3 {
 		// 글서 저장안하면 실행안됨
 		System.out.println(ce.num);
 		ce.num = 5;
-		ce = new ClassExam3();
 		System.out.println(ce.getNum());
+		ce = new ClassExam3();
 		System.out.println(ce.getNum());
 		//ce.setNum();  // 이렇게 호출하면 5번라인에 있는 num하고 같아짐.
 	}

@@ -11,6 +11,6 @@ public class ClassExam4 {
 		System.out.println("num1 = " + num1);
 		System.out.println("num2 = " + num2);
 	}
-	
+	// Swap하기
 
 }

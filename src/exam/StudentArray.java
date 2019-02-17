@@ -8,10 +8,10 @@ class Student {  // Student가 데이터타입이 되니까 배열로 만들수�
 public class StudentArray {
 	public static void main(String[] args) {
 		Student[] students = new Student[10]; // 이 상태에선 다 null값이 들어가 있음.
-		// System.out.println(students[0].name); // 이 오류는 그냥 못잡고 실행해야 알 수 있음.
-		// students[9] = new Student();
-		// Student student = new Student();
-		// student.grade = 3;
+		//System.out.println(students[0].name); // 이 오류는 그냥 못잡고 실행해야 알 수 있음.
+		//students[9] = new Student();
+		//Student student = new Student();
+		//student.grade = 3;
 		for(int i=0;i<students.length;i++) {
 			students[i] = new Student();
 			students[i].grade = i+1;

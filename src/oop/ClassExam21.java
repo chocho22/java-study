@@ -14,6 +14,7 @@ public class ClassExam21 {
 	}
 
 	public static void main(String[] args) {
+		//ClassExam21 ce21 = new ClassExam21();
 		ClassExam21 ce2 = new ClassExam21(10,"abc");
 		System.out.println((new ClassExam21(10,"abc")).num1);
 		
