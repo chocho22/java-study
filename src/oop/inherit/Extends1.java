@@ -1,17 +1,17 @@
 package oop.inherit;
 
-class Mother {
+class Mother1 {
 	int age = 55;
 	String name = "김영희";
 
-	Mother() {
+	Mother1() {
 		System.out.println("난 엄마가 생성자.");
 	}
 	void attack() {
 		System.out.println("엄마가 등짝 스매싱 기술을 시전합니다.");
 	}
 }
-public class Extends1 extends Mother {
+public class Extends1 extends Mother1 {
 	Extends1() {
 		System.out.println("난 확장 생성자.");
 		attack();
