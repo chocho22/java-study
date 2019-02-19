@@ -13,7 +13,7 @@ public class StudentArray {
 		//students[9] = new Student();
 //		Student student = new Student();
 //		student.grade = 3;
-//		System.out.println(student.grade);
+//		System.out.println(student.grade);  
 		//System.out.println(students[9].name);
 		for(int i=0;i<students.length;i++) {
 			students[i] = new Student();
