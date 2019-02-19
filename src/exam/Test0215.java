@@ -42,7 +42,7 @@ public class Test0215 {
 		
 		Scanner input = new Scanner(System.in);  //@@
 		int i = input.nextInt();
-		
+		input.close();
 		if ((i > 0) && (i < 20000000)) {
 			// System.out.println("시리 시우 사랑해!!!!!!!!!!");
 			System.out.print("고양이가 " + cats[i].cn + "마리, ");
@@ -56,11 +56,13 @@ public class Test0215 {
 		
 		Scanner input2 = new Scanner(System.in); 
 		int i2 = input2.nextInt();
+		input2.close();
 		if (i2 == i*2) {
 			System.out.println("감사합니다~~~~^^");
 		} else {
 			System.out.println("다시 주세요ㅠㅠ");
 		}
+		
 	}
 }
 // j하고 i
