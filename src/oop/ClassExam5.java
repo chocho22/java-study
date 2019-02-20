@@ -17,10 +17,11 @@ public class ClassExam5 {
 		// 브레이크 포인트 하면 이 부분만 실행됨
 		// 거기서 Alt+Shift+D 누르고 J 누르면 디버깅 시작할수있음!.
 		// ㄴF5 = 실행구가 시작되는 지점으로 이동, 다음 순서로 한번씩 넘어감.
-		// ㄴF6 = 한줄씩 순서대로 실행
+		// ㄴF6 = 한줄씩 순서대로 실행????
 		// ㄴF8 = 디버깅 종료
 		ce.a = 4;
 		(new ClassExam5(1)).a = 4;
+		System.out.println(ce.a);
 		ce = new ClassExam5();
 		System.out.println(ce.a);
 		System.out.println((new ClassExam5(1)).a);

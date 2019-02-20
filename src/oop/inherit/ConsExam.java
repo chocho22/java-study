@@ -1,6 +1,6 @@
 package oop.inherit;
 
-import java.util.Scanner;  // 아래 Scanner에서 에러날 때 Ctrl+Shift+O 눌러주면 여기서 Scanner의
+//import java.util.Scanner;  // 아래 Scanner에서 에러날 때 Ctrl+Shift+O 눌러주면 여기서 Scanner의
 							// 존재 이유를 알려줌.
 
 class Book {
@@ -15,15 +15,18 @@ class Book {
 // this도 디자인 패턴 - 디자인 패턴 Model View Control(MVC)는 스프링 들어가기전에 배우게 될 것..
 }
 public class ConsExam extends Book {  // 확장하면 Book의 기본생성자로 올라가야 함.
-	ConsExam() {
-		super();   // 22라인에서 오류가 안난이유는 이게 기본생성자로 숨어있었기 때문.
-	}
+//	ConsExam() {
+//		super();   // 22라인에서 오류가 안난이유는 18~20라인이 기본생성자로 숨어있었기 때문.
+//	}
 	public static void main(String[] args) {
 		ConsExam ce = new ConsExam();
 		System.out.println(ce.name);
 		
-		//Book b = new Book();  // Book이라는 클래스를 데이터 타입으로 사용할 수 있다.
-		//System.out.println(b.name);
+		Book b = new Book();  // Book이라는 클래스를 데이터 타입으로 사용할 수 있다.
+		System.out.println(b.name);
+		
+		Book b2 = new Book("자바의 정석 2");
+		System.out.println(b2.name);
 		
 		//String str = new String("abc");  // 여기 String은 String 클래스의 기본 생성자.
 		//Scanner scan = new Scanner(System.in);

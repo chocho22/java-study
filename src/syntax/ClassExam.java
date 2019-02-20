@@ -18,8 +18,7 @@ public class ClassExam { // 여기서 ClassExam의 데이터타입은 ClassExam.
 		ce.test(); // ClassExam ce = new ClassExam(); 얘 선언한다음 써줘야 호출할수있다!!
 		
 		ce.a = 3;
-		ce = new ClassExam();  // static 제외하고 다 읽어들이기 때문에
-		// a가 3이 아니라 다시 1로 초기화 된게 아닐까??????
+		ce = new ClassExam();
 		System.out.println(ce.a);  // ce = new ClassExam(); 다시 메모리 생성했으니까 1이 출력됨.
 
 		

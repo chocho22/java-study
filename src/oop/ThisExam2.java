@@ -3,7 +3,7 @@ package oop;
 public class ThisExam2 {
 	
 	
-	ThisExam2() {}  // 이 기본 생성자가 숨어있는 것!
+	ThisExam2() {}  // 생성자가 아무것도 없으면 이 기본 생성자가 숨어있는 것!
 	
 	ThisExam2(int num1, String str) {
 		System.out.println(this.num1);

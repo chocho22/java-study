@@ -19,14 +19,16 @@ public class ClassExam3 {
 	// main 포함 어떤 메소드도 Class 밖에서 선언할수없음
 		ClassExam3 ce = new ClassExam3();
 		// ClassExam3() 선언된게 없는데 쓸수있는건 ClassExam3()얘가 기본생성자라서.
-		// 안보여도 ClassExam3(){ } 이게 클래스 안에 있음.
+		// ㄴ안보여도 ClassExam3(){ } 이게 클래스 안에 있음.
 		// 저장해야 컴파일되어서 Class파일로 만들고, 실행하면 Class파일을 실행함.
-		// 글서 저장안하면 실행안됨
+		// ㄴ글서 저장안하면 실행안됨
 		System.out.println(ce.num);
 		ce.num = 5;
 		System.out.println(ce.getNum());
 		ce = new ClassExam3();
 		System.out.println(ce.getNum());
-		//ce.setNum(숫자);  // 이렇게 호출하면 5번라인에 있는 num하고 같아짐.
+//		ce.setNum(1);  // 이렇게 호출하면 5번라인에 있는 num하고 같아짐.???
+		// 실험해본결과 뭐가 같아진다는 건지 모르겠음. setNum메소드 안에
+		// this.num을 실행시키지 않는 이상...뭐가 같아진다는 건지,,,??
 	}
 }

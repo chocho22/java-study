@@ -20,6 +20,7 @@ public class ReturnMethod {
 		nums[2] = 1;
 		Scanner i = new Scanner(System.in);
 		int j = i.nextInt();
+		i.close();
 		
 		int idx = indexOf(nums, j);
 		System.out.println(j + "의 위치는 : " + idx);

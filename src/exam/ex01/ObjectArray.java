@@ -11,7 +11,7 @@ public class ObjectArray {
 			}
 		}
 		for(int i = 0 ; i < objs.length ; i++) {
-//			((Father)objs[i]).printInfo();  // Son도 Father라고 부를 수 있으니
+			((Father)objs[i]).printInfo();  // Son도 Father라고 부를 수 있으니
 			// Father로 캐스팅해주면 Son일땐 Son, Father일땐 Father를 실행해 줌.
 //			System.out.println(objs[i] instanceof Father); // objs[i]를 Father라고 불러도 되는지?
 			if(objs[i] instanceof Father) {

@@ -14,7 +14,7 @@ public class StringEqual {
 		// (str1=="abcd") 에 있는 "abcd"는 new String 하지 않았기 때문에!
 		System.out.println(str2=="abcd");
 		// 상동
-		"abcd".equals(str2);  // =>  str2 == "abcd"; 
+		"abcd".equals(str2);  // =>  str2 = "abcd"; 
 		boolean bl = str1 == "abcd";
 	}
 }

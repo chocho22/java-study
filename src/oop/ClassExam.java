@@ -14,7 +14,7 @@ public class ClassExam {
 		
 		for (int i = 0; i < 3; i++) {
 			ce.nums[i] = (i + 1) * 10; // 입력단과 출력단 분리시키는 게 좋다.
-			// 따라서 ClassExam이 입력단, main쪽이 실행&출력단.
+			// 따라서 첫번째 반복문이 입력단, 두번째 반복문이 실행&출력단.
 		}
 		for (int j = 0; j < 3; j++) {
 			System.out.println(ce.nums[j]); // 입력단과 출력단 분리시키는 게 좋다.

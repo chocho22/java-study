@@ -17,5 +17,4 @@ public class Condition {
 		//같다고 물어볼때는 ==
 		//다르다고 물어볼때는 !=
 	}
-
 }
