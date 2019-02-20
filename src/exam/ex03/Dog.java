@@ -22,16 +22,16 @@ public class Dog {
 		return this.age;
 	}
 	
-//	public static void main(String[] args) {
-//		Dog d = new Dog();
-//		d.name = "카드";
-//		d.back();
-//		d.setAge(10);
-//		System.out.println(d.age);
-//		Dog d2 = new Dog();
-//		d2.setAge(20);
-//		System.out.println(d2.age);
-//	}
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.name = "카드";
+		d.back();
+		d.setAge(10);
+		System.out.println(d.age);
+		Dog d2 = new Dog();
+		d2.setAge(20);
+		System.out.println(d2.getAge());
+	}
 }
 
 
