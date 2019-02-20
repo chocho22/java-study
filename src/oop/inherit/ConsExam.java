@@ -1,6 +1,6 @@
 package oop.inherit;
 
-import java.util.Scanner;  // 아래 Scanner에서 에러날 때 Ctrl+Shift+O 눌러주면 여기서 Scanner의
+//import java.util.Scanner;  // 아래 Scanner에서 에러날 때 Ctrl+Shift+O 눌러주면 여기서 Scanner의
 							// 존재 이유를 알려줌.
 
 class Book {
