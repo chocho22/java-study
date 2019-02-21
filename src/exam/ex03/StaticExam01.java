@@ -14,6 +14,7 @@ public class StaticExam01 {
 		se.name = "허허허허허";
 		se.name1 = "허허허허";
 		se = new StaticExam01();
+		StaticExam01.test();
 		System.out.println(se.name);
 		System.out.println(se.name1);
 	}
