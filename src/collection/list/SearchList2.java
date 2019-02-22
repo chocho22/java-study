@@ -11,12 +11,13 @@ public class SearchList2 {
 			int ranNum = (int)(Math.random()*20)+1;
 			numList.add(ranNum);
 			}
-		}
 		
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.println("번호를 , 를 기준으로 입력해주세요.");
 		String strNum = scan.nextLine();
 		String[] strNums = strNum.split(",");
+		
 		ArrayList<Integer> anList = new ArrayList<>();
 		for(int i = 0 ; i < strNums.length ; i++) {
 			anList.add(Integer.parseInt(strNums[i]));
@@ -24,8 +25,8 @@ public class SearchList2 {
 		
 		System.out.println(anList);
 		int count = 0;
-		for(int i1 = 0 ; i1 < anList.size() ; i1++) {
-			if(anList.get(i1) != -1) {
+		for(int i = 0 ; i < anList.size() ; i++) {
+			if(numList.indexOf(anList.get(i)) != -1) {
 				count++;
 			}
 		}
@@ -44,3 +45,4 @@ public class SearchList2 {
 //		System.out.println(count);
 	}
 }
+
