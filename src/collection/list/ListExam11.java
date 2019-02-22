@@ -14,6 +14,5 @@ public class ListExam11 {
 		for(String str : strs) {
 			System.out.print(str);
 		}
-		System.out.println(strs[1]);
 	}
 }

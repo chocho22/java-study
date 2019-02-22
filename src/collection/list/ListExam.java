@@ -16,9 +16,9 @@ public class ListExam {
 		System.out.println(al.size());
 		al.remove(0);
 		System.out.println(al.size());
-		
+
 		ArrayList<Integer> numList = new ArrayList<>();
 		numList.add(1);
-		
+
 	}
 }

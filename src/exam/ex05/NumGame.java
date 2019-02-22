@@ -19,5 +19,4 @@ public class NumGame {
 			System.out.println(numList.get(i));
 		}
 	}
-
 }
