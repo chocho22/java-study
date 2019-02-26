@@ -18,5 +18,6 @@ public class NumGame {
 		for(int i=0;i<numList.size();i++) {
 			System.out.println(numList.get(i));
 		}
+		scan.close();
 	}
 }
