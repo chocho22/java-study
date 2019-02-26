@@ -41,11 +41,11 @@
 		<suspend_validator>false</suspend_validator>
 		<export_setting>
 			<export_ddl_setting>
-				<output_path></output_path>
-				<encoding></encoding>
-				<line_feed></line_feed>
+				<output_path>db-test2.sql</output_path>
+				<encoding>UTF-8</encoding>
+				<line_feed>CR+LF</line_feed>
 				<is_open_after_saved>true</is_open_after_saved>
-				<environment_id>null</environment_id>
+				<environment_id>0</environment_id>
 				<category_id>null</category_id>
 				<ddl_target>
 					<create_comment>true</create_comment>
@@ -135,7 +135,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2019-02-26 10:24:34</creation_date>
-			<updated_date>2019-02-26 10:26:12</updated_date>
+			<updated_date>2019-02-26 17:02:07</updated_date>
 			<model_property>
 				<name>프로젝트명</name>
 				<value></value>
@@ -181,7 +181,7 @@
 			<char_semantics>false</char_semantics>
 			<description></description>
 			<logical_name>유저정보_나이</logical_name>
-			<physical_name>UI_AGE_NUMBER</physical_name>
+			<physical_name>UI_AGE</physical_name>
 			<type>tinyint</type>
 		</word>
 		<word>
@@ -197,7 +197,7 @@
 			<char_semantics>false</char_semantics>
 			<description></description>
 			<logical_name>유저정보_이름</logical_name>
-			<physical_name>UI_NAME_VARCHAR2</physical_name>
+			<physical_name>UI_NAME</physical_name>
 			<type>varchar(n)</type>
 		</word>
 		<word>
@@ -213,7 +213,7 @@
 			<char_semantics>false</char_semantics>
 			<description></description>
 			<logical_name>유저정보_번호</logical_name>
-			<physical_name>UI_NUM_NUMBER_PRIMARY_KEY</physical_name>
+			<physical_name>UI_NUM</physical_name>
 			<type>integer</type>
 		</word>
 	</dictionary>

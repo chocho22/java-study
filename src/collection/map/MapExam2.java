@@ -15,6 +15,7 @@ public class MapExam2 {
 		
 		Set<String> keys = map.keySet();
 		System.out.println(keys.size());
+		System.out.println(map.keySet());
 		for(String key:keys) {
 			System.out.println(key + " : " + map.get(key));
 		}
