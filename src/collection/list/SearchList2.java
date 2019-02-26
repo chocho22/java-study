@@ -17,6 +17,7 @@ public class SearchList2 {
 		System.out.println("번호를 , 를 기준으로 입력해주세요.");
 		String strNum = scan.nextLine();
 		String[] strNums = strNum.split(",");
+		scan.close();
 		
 		ArrayList<Integer> anList = new ArrayList<>();
 		for(int i = 0 ; i < strNums.length ; i++) {
