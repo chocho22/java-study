@@ -37,7 +37,7 @@ public class SearchList2 {
 //		int count = 0;
 //		for(int i=0;i<6;i++) {
 //			int ranNum = (int)(Math.random()*20)+1;
-////			System.out.println(numList.indexOf(ranNum));
+//			System.out.println(numList.indexOf(ranNum));
 //			if(numList.indexOf(ranNum) != -1) {
 //				count++;
 //			}
