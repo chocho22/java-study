@@ -1,4 +1,3 @@
-
 /* Drop Tables */
 
 DROP TABLE USER_INFO CASCADE CONSTRAINTS;

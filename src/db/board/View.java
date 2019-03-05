@@ -22,7 +22,7 @@ public class View {
 				System.out.print("비밀번호 : ");
 				String pwd = scan.nextLine();
 				if ("12345678".equals(pwd)) {
-					BoardService bs = new BoardService();
+					BoardService21 bs = new BoardService21();
 					System.out.println("환영합니다. osfu님! 서비스를 맘껏 이용하세요.");
 					do {
 						System.out.println("1. 게시물 등록");
@@ -35,8 +35,12 @@ public class View {
 						cmd = scan.nextLine();
 
 						if ("3".equals(cmd)) {
-							bs.selectBoard();
-
+							System.out.println("검색할 대상을 선택해주세요.");
+							System.out.println("1. 제목");
+							System.out.println("2. 내용");
+							System.out.println("3. 모든 게시글");
+							String num = scan.nextLine();
+							bs.selectBoard(num);
 						} else if ("1".equals(cmd)) {
 							System.out.print("제목 : ");
 							String title = scan.nextLine();
