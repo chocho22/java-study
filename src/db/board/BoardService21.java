@@ -53,7 +53,7 @@ public class BoardService21 {
 		}
 	}
 
-	public void updateBoard(int num, String title, String content) {
+	public void updateBoard(Integer num, String title, String content) {
 		String sql = "update board12 set title=?, content=? where num=?";
 		try {
 			PreparedStatement ps = DBCon.getCon().prepareStatement(sql);
@@ -71,7 +71,7 @@ public class BoardService21 {
 		}
 	}
 
-	public void deleteBoard(int num) {
+	public void deleteBoard(Integer num) {
 		String sql = "delete from Board12 where num=?";
 		try {
 			PreparedStatement ps = DBCon.getCon().prepareStatement(sql);

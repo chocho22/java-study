@@ -10,7 +10,7 @@ public class Board12InfoVO {
 		return num;
 	}
 	public int setNum(Integer num) {
-		this.num = num;
+		return this.num = num;
 	}
 	public String getTitle() {
 		return title;
